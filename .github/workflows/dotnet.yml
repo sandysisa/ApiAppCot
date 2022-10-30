@@ -31,11 +31,6 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release -o '${{ github.workspace }}/out'
       
-    - name: Zip
-      run:
-        cd ${{ github.workspace }}/out;
-        zip -r ${{ github.workspace }} . -x '*.git*'
-      
         
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
