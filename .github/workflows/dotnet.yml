@@ -27,6 +27,9 @@ jobs:
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    
+    - name: Generate deployment package
+      run: zip -r deploy.zip . -x '*.git*'
        
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
@@ -37,4 +40,4 @@ jobs:
         environment_name: Appcot2-env
         version_label: ${{ github.run_id}}
         region: us-east-1
-        deployment_package: ${{ github.workspace }}/out.zip
+        deployment_package: deploy.zip
