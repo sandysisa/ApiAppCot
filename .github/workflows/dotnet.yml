@@ -27,11 +27,7 @@ jobs:
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
-      
-    - name: Publish
-      run: dotnet publish -c Release -o '${{ github.workspace }}'
-      
-        
+       
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
       with:
