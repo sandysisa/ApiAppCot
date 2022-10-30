@@ -9,7 +9,7 @@ namespace ApiAppCot.Contexto
             : base(options) => Database.EnsureCreated();
     
 
-        public DbSet<Ativos> Ativos { get; set; }
+        public DbSet<Ativos> Ativos { get; set; } = null!;
 
 
     }
