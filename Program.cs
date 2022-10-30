@@ -33,14 +33,10 @@ app.MapPost("DelAtivo/{id}", async (int id, Contexto contexto) =>
     else return;
 });
 
-app.MapGet("ListAtivos", async ( Contexto contexto) =>
-{
-    return await contexto.Ativos.ToListAsync();
-});
 
-app.MapGet("ListAtivos/{id}", async (int id,Contexto contexto) =>
+app.MapGet("ListFavoritos/{id}", async (int id,Contexto contexto) =>
 {
-    return await contexto.Ativos.FirstOrDefaultAsync(p => p.Id == id);
+    return await contexto.Ativos.Where(p => p.fk_idfavoritos == id).ToListAsync();
 });
 
 
