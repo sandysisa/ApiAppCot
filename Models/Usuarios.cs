@@ -1,4 +1,4 @@
-﻿namespace ApiAppCot.Models
+﻿/*namespace ApiAppCot.Models
 {
     public class Usuarios
     {
@@ -10,3 +10,4 @@
 
     }
 }
+*/

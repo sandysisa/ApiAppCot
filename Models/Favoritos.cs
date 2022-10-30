@@ -1,4 +1,4 @@
-﻿namespace ApiAppCot.Models
+﻿/*namespace ApiAppCot.Models
 {
     public class Favoritos
     {
@@ -6,3 +6,4 @@
         public int idUsuario { get; set; }
     }
 }
+*/
