@@ -7,12 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddDbContext<Contexto>(options => options.UseMySql(
-    @"Server = localhost; Database = app_cot; Uid = root; Pwd = root", ServerVersion.Parse("8.0.29")
-    ));
-protected override void OnModelCreating(ModelBuilder modelBuilder)
-{
-    modelBuilder.Entity<Ativos>().OwnsOne(x => x.IdAtivos);
-}
+    "server = localhost; initial catalog = app_cot; uid = root; pwd = root", ServerVersion.Parse("8.0.29-mysql")));
+
 
 builder.Services.AddSwaggerGen();
 
@@ -28,7 +24,7 @@ app.MapPost("AddAtivo", async (Ativos ativo, Contexto contexto) =>
 
 app.MapPost("DelAtivo/{id}", async (int id, Contexto contexto) =>
 {
-    var DelAtivo = await contexto.Ativos.FirstOrDefaultAsync(p => p.IdAtivos == id);
+    var DelAtivo = await contexto.Ativos.FirstOrDefaultAsync(p => p.Id == id);
     if (DelAtivo != null) 
     {
         contexto.Ativos.Remove(DelAtivo);
@@ -42,13 +38,13 @@ app.MapGet("ListAtivos", async ( Contexto contexto) =>
     return await contexto.Ativos.ToListAsync();
 });
 
-app.MapGet("ListAtivo/{id}", async (int id,Contexto contexto) =>
+app.MapGet("ListAtivos/{id}", async (int id,Contexto contexto) =>
 {
-    return await contexto.Ativos.FirstOrDefaultAsync(p => p.IdAtivos == id);
+    return await contexto.Ativos.FirstOrDefaultAsync(p => p.Id == id);
 });
 
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Home!");
 app.UseSwaggerUI();
 
 app.Run();

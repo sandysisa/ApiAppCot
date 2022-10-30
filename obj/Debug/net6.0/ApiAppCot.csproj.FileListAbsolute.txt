@@ -1,3 +1,10 @@
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.csproj.AssemblyReference.cache
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.AssemblyInfoInputs.cache
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.AssemblyInfo.cs
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.csproj.CoreCompileInputs.cache
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\appsettings.json
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\ApiAppCot.exe
@@ -16,13 +23,6 @@ C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\Pomelo.
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.csproj.AssemblyReference.cache
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.AssemblyInfoInputs.cache
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.AssemblyInfo.cs
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.csproj.CoreCompileInputs.cache
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\ApiAppCot.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\sandy\Documents\aspnetcore\ApiAppCot\ApiAppCot\obj\Debug\net6.0\scopedcss\bundle\ApiAppCot.styles.css

@@ -2,10 +2,10 @@
 {
     public class Ativos
     {
-        public int IdAtivos { get; set; }
-        public int IdFavorito { get; set; }
-        public int Nome { get; set; }
-        public double Valor { get; set; }
+        public int Id { get; set; }
+        public int fk_idfavoritos { get; set; }
+        public string Nome { get; set; }
+        public double valor_alvo { get; set; }
         public bool Alarme { get; set; }
     }
 }
